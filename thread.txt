@@ -1,0 +1,16 @@
+Imagine your game is like a busy chef in a kitchen. The chef can't do all the cooking 
+and serve customers at the same time. So, the chef decides to hire a helper to handle 
+the cooking while they focus on serving.
+
+In your game code:
+
+implements Runnable: This is like saying, "Hey, I'm hiring a helper, 
+and here's what they can do—they can run a set of instructions."
+
+startGameThread method: This is like telling the helper, 
+"Okay, start working!" It creates the helper (thread) and tells it to start doing its job.
+
+run method: This is the actual job the helper does. 
+In your case, it's saying, "Keep doing this task as long as I don't tell you to stop." 
+Your chef (main program) can now focus on other things while the helper takes care of running this specific task.
+
